@@ -1,0 +1,38 @@
+{
+  "bicim": 1,
+  "gorevKimligi": "SK-DESIGN-001",
+  "surum": "0.1",
+  "tarih": "2026-11-05",
+  "saatDilimi": "Europe/Istanbul",
+  "urun": "Sabun Kaydırağı",
+  "durum": "taslak",
+  "kapsam": [
+    "Görsel dil",
+    "Oyuncu akışı",
+    "Tek ekranlık öğretici",
+    "Bölüm ekranı yerleşimi",
+    "Önizleme arayüzü",
+    "Erişilebilirlik"
+  ],
+  "lisansKaynak": "Metin ve diyagramlar bu paket için özgün üretilmiştir. Font olarak sistem arayüz yığını önerilir. Hazır stok görsel veya lisansı belirsiz font seçilmemiştir. İkon ve tahta varlıkları özgün vektör olarak üretilmelidir.",
+  "dogrulama": {
+    "godotCiktisi": false,
+    "oynanisDogrulamasi": false,
+    "bagimsizInceleme": "bekleniyor",
+    "not": "Doğrulama Godot çıktısı ve bağımsız inceleme bekler. Bu sürüm oynanış doğrulaması içermez."
+  },
+  "dosyalar": [
+    {
+      "ad": "SK-DESIGN-001.md",
+      "rol": "tasarim belgesi",
+      "sha256": "5ee4add9fa326970ec8066ece5da8d2b277040d09ce851c9340c9996fd411c9b",
+      "bayt": 14851
+    },
+    {
+      "ad": "SK-DESIGN-001-oyuncu-akisi.svg",
+      "rol": "oyuncu akış diyagramı",
+      "sha256": "f4a1ac03d79296040f7fb30928dc6269205937054cf11bb5728151fc00dbdfc4",
+      "bayt": 4058
+    }
+  ]
+}

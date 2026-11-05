@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="640" viewBox="0 0 420 640" role="img" aria-labelledby="title desc">
+  <title id="title">Sabun Kaydırağı — oyuncu akışı</title>
+  <desc id="desc">Açılıştan sonraki bölüme kadar ilk sürüm oyuncu akışı. Özgün vektör; sistem fontu.</desc>
+  <rect width="420" height="640" fill="#F4F1EA"/>
+  <text x="210" y="36" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="16" font-weight="600" fill="#1C1A17">Sabun Kaydırağı · Oyuncu akışı</text>
+  <text x="210" y="56" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="11" fill="#6B6560">SK-DESIGN-001 · v0.1 · bölüm seçimi yok</text>
+
+  <!-- boxes -->
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="13" fill="#1C1A17" text-anchor="middle">
+    <rect x="135" y="72" width="150" height="40" rx="8" fill="#E7E0D4" stroke="#1C1A17" stroke-width="1.5"/>
+    <text x="210" y="97">Açılış</text>
+
+    <rect x="135" y="142" width="150" height="40" rx="8" fill="#E7E0D4" stroke="#1C1A17" stroke-width="1.5"/>
+    <text x="210" y="167">Doğrudan oyuna giriş</text>
+
+    <rect x="135" y="212" width="150" height="40" rx="8" fill="#B8E4F2" stroke="#1C1A17" stroke-width="1.5"/>
+    <text x="210" y="237">Tek ekran öğretici</text>
+
+    <rect x="135" y="282" width="150" height="40" rx="8" fill="#3A7BD5" stroke="#1C1A17" stroke-width="1.5"/>
+    <text x="210" y="307" fill="#F4F1EA">Oyun</text>
+
+    <rect x="20" y="352" width="130" height="40" rx="8" fill="#E7E0D4" stroke="#1C1A17" stroke-width="1.5"/>
+    <text x="85" y="377">Duraklatma</text>
+
+    <rect x="250" y="352" width="150" height="40" rx="8" fill="#2FA86A" stroke="#1C1A17" stroke-width="1.5"/>
+    <text x="325" y="377" fill="#F4F1EA">Bölüm tamamlandı</text>
+
+    <rect x="135" y="452" width="150" height="40" rx="8" fill="#E7E0D4" stroke="#1C1A17" stroke-width="1.5"/>
+    <text x="210" y="477">Sonraki bölüm</text>
+  </g>
+
+  <!-- arrows -->
+  <g stroke="#1C1A17" stroke-width="1.5" fill="none" marker-end="url(#arrow)">
+    <defs>
+      <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="3" orient="auto">
+        <path d="M0,0 L6,3 L0,6 Z" fill="#1C1A17"/>
+      </marker>
+    </defs>
+    <line x1="210" y1="112" x2="210" y2="140"/>
+    <line x1="210" y1="182" x2="210" y2="210"/>
+    <line x1="210" y1="252" x2="210" y2="280"/>
+    <!-- oyun -> duraklat -->
+    <path d="M135,302 H85 V352"/>
+    <!-- duraklat -> oyun -->
+    <path d="M85,352 V322 H135" stroke-dasharray="4 3"/>
+    <!-- oyun -> tamamlandı -->
+    <path d="M285,302 H325 V352"/>
+    <!-- tamamlandı -> sonraki -->
+    <path d="M325,392 V472 H285"/>
+    <!-- sonraki -> oyun -->
+    <path d="M210,452 V322" stroke-dasharray="4 3"/>
+    <!-- duraklat -> öğretici (nasıl oynanır) -->
+    <path d="M20,372 H12 V232 H135" stroke-dasharray="4 3"/>
+  </g>
+
+  <g font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="10" fill="#6B6560">
+    <text x="100" y="130" text-anchor="start">Oyna</text>
+    <text x="230" y="200">ilk giriş</text>
+    <text x="40" y="340">Duraklat</text>
+    <text x="5" y="220">Nasıl oynanır?</text>
+    <text x="300" y="340">Zafer</text>
+    <text x="230" y="430">yeni tahta</text>
+    <text x="95" y="318" font-size="9">Devam</text>
+  </g>
+
+  <text x="210" y="530" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="11" fill="#6B6560">Kesik oklar: geri dönüş / tekrar</text>
+  <text x="210" y="560" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="10" fill="#6B6560">Özgün SVG · sistem fontu · stok görsel yok</text>
+  <text x="210" y="590" text-anchor="middle" font-family="system-ui, -apple-system, Segoe UI, Roboto, sans-serif" font-size="10" fill="#6B6560">Godot doğrulaması yok · çözülebilirlik iddiası yok</text>
+</svg>

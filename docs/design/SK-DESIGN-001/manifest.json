@@ -1,0 +1,12 @@
+{
+  "bicim": 1,
+  "gorevKimligi": "SK-DESIGN-001",
+  "guncelSurum": "0.1",
+  "surumler": [
+    {
+      "surum": "0.1",
+      "durum": "taslak",
+      "manifest": "v0.1/manifest.json"
+    }
+  ]
+}
